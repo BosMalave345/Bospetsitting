@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bo’s Pet Sitting · Houston</title>
+  <meta name="description" content="In‑home visits, overnight stays, and dog walking across Houston & The Woodlands. Reliable, certified, and pet‑first care." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <span class="logo">🐾</span>
+        <a href="#" class="brand-name">Bo’s Pet Sitting</a>
+      </div>
+      <nav class="menu">
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn-sm">Book</a>
+      </nav>
+      <button id="menuToggle" class="hamburger" aria-label="Open Menu">☰</button>
+    </div>
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="btn btn-sm">Book</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Trusted in‑home & overnight pet care</h1>
+          <p class="lead">Serving Houston & The Woodlands. CPR/First‑Aid trained, vet‑clinic experience, and lots of belly rubs.</p>
+          <div class="cta-row">
+            <a href="#contact" class="btn">Book for the holidays</a>
+            <a href="#services" class="btn btn-ghost">See services</a>
+          </div>
+          <p class="tiny">Thanksgiving & Christmas slots go fast — reserve early.</p>
+        </div>
+        <div class="hero-card">
+          <div class="stat">
+            <span class="stat-num">300+</span>
+            <span class="stat-label">Happy visits</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">4.9★</span>
+            <span class="stat-label">Client-rated</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">CPR</span>
+            <span class="stat-label">Certified</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>In‑Home Visits</h3>
+            <p>30‑minute drop‑ins for meals, litter, meds, and playtime.</p>
+            <ul>
+              <li>Photos & updates every visit</li>
+              <li>Medication administration (incl. insulin)</li>
+              <li>Mail, plants, light home care</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Overnight Stays</h3>
+            <p>Stay in your home for nighttime comfort and routines.</p>
+            <ul>
+              <li>9–10 hour overnight window</li>
+              <li>Evening & morning routines covered</li>
+              <li>Add daytime check‑ins as needed</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Dog Walking</h3>
+            <p>Structured walks tailored to energy level and weather.</p>
+            <ul>
+              <li>GPS‑timed walks</li>
+              <li>Fresh water & towel‑off</li>
+              <li>Leash & manners reinforcement</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section alt">
+      <div class="container">
+        <h2>Pricing (transparent & simple)</h2>
+        <div class="pricing">
+          <div class="price-card">
+            <h3>Drop‑in Visit</h3>
+            <p class="price">$30</p>
+            <p>Per 30‑minute visit</p>
+            <ul>
+              <li>+$10 per additional pet (optional)</li>
+              <li>Medication add‑on available</li>
+            </ul>
+          </div>
+          <div class="price-card featured">
+            <h3>Overnight</h3>
+            <p class="price">$95</p>
+            <p>9–10 hours · your home</p>
+            <ul>
+              <li>Extra daytime visit: $30 flat</li>
+              <li>Holiday rates may apply</li>
+            </ul>
+          </div>
+          <div class="price-card">
+            <h3>Dog Walk</h3>
+            <p class="price">$25</p>
+            <p>20–30 minutes</p>
+            <ul>
+              <li>Bundle discounts available</li>
+            </ul>
+          </div>
+        </div>
+        <p class="tiny">Note: Final quotes vary by distance, pet count, and care complexity.</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Bo’s</h2>
+        <div class="about">
+          <p><strong>Hi, I’m Mauricio (Bo’s Pet Sitting).</strong> I’m a UH Economics student with veterinary clinic experience, Pet CPR/First‑Aid certified, and I’ve cared for hundreds of Houston pets. My goal is stress‑free care that keeps routines consistent, so your pets feel safe at home.</p>
+          <p>Long‑term vision: grow Bo’s into a community‑powered pet care network and eventually a self‑sustaining animal haven in Houston.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Book or Ask a Question</h2>
+        <div class="contact">
+          <div class="card">
+            <h3>Quick Message</h3>
+            <form id="contactForm">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your pets & dates" required></textarea>
+              <button type="submit" class="btn">Send</button>
+              <p id="formMsg" class="tiny"></p>
+            </form>
+          </div>
+          <div class="card">
+            <h3>Other ways</h3>
+            <ul class="contact-list">
+              <li>Email: <a href="mailto:bosboarding@gmail.com">bosboarding@gmail.com</a></li>
+              <li>Instagram: <a href="https://instagram.com/" target="_blank" rel="noopener">DM @bosboarding</a></li>
+              <li>Client form: <a href="#" target="_blank" rel="noopener">New Client Intake</a></li>
+            </ul>
+            <p class="tiny">This is a static site; the form above opens your email client with your message.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Bo’s Pet Sitting · Houston & The Woodlands</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
